@@ -46,9 +46,9 @@ if (file_exists(MODX_BASE_PATH . '/manager')) {
   die("Couldn't find modx's manager path!");
 }
 
-if (file_exists(MODX_BASE_PATH . 'connectors-7rXt-B1s')) {
-  define('MODX_CONNECTORS_PATH', MODX_BASE_PATH . 'connectors-7rXt-B1s/');
-  define('MODX_CONNECTORS_URL', MODX_BASE_URL . 'connectors-7rXt-B1s/');
+if (file_exists(MODX_BASE_PATH . 'connectors')) {
+  define('MODX_CONNECTORS_PATH', MODX_BASE_PATH . 'connectors/');
+  define('MODX_CONNECTORS_URL', MODX_BASE_URL . 'connectors/');
 } else {
   die("Couldn't find modx's connectors path!");
 }

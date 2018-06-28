@@ -16,7 +16,9 @@ $sources = array(
 );
 unset($root);
 
+/** @noinspection PhpIncludeInspection */
 require MODX_CORE_PATH . 'model/modx/modx.class.php';
+/** @noinspection PhpIncludeInspection */
 require $sources['build'] . '/includes/functions.php';
 
 $modx = new modX();
